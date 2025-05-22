@@ -11,11 +11,11 @@ In this Linking Loader, I have designed it to operate concurrently in both **com
 SICLLR objf1 objf2 -o img_file -r rpt_file -l log_file -link
 ```
 
-- **objf1, objf2, …**: All object code files to be linked.
-- **-o img_file**: Sets the name of the output image file; if not used, the default output is `DEVF2`.
-- **-r rpt_file**: Sets the name of the output report file; if not used, the default output is `report.txt`.
-- **-l log_file**: Sets the name of the output log file; if not used, the default output is `SICLLR.log`.
-- **-link**: If this option is provided, the program will immediately perform the linking process; if omitted, it will enter interactive mode waiting for further instructions.
+- `objf1, objf2, …`: All object code files to be linked.
+- `-o img_file`: Sets the name of the output image file; if not used, the default output is `DEVF2`.
+- `-r rpt_file`: Sets the name of the output report file; if not used, the default output is `report.txt`.
+- `-l log_file`: Sets the name of the output log file; if not used, the default output is `SICLLR.log`.
+- `-link`: If this option is provided, the program will immediately perform the linking process; if omitted, it will enter interactive mode waiting for further instructions.
 
 ### Interactive Mode
 
